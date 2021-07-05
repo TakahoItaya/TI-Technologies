@@ -1,0 +1,5 @@
+@mixin overTab {
+    @media print, screen and (min-width: 991px) {
+        @content;
+    }
+}
